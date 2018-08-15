@@ -1,0 +1,84 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    /*background-image: url('images/xxxxx.png');*/
+    background-size: cover;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+#page_header {
+    width: 700px;
+    height: 170px;
+    background: darkblue;
+}
+
+#corp_logo {
+    width: 600px;
+    height: 127px;
+    background: url('images/suvBlank.png') no-repeat;
+    position: relative;
+    left: 10px;
+    top: 10px; 
+    font-family: Arial;
+    color: white;
+    font-size: 23px;
+    /*font-style: oblique;*/
+    text-align: right;
+}
+
+#page_menu {
+    position: relative;
+    top: 2px;
+    }
+
+#page_menu li {
+    margin-right: 1px;
+    width: 155px;
+    height:  20px;
+    float: left;
+    background-color: #7979FF;
+    font-weight:  bold;
+    font-size: 12px;
+    overflow:  hidden;
+    text-align: center;
+}
+
+#page_menu a{
+    padding-top:  3px;
+    display: block;
+    color: white;
+}
+
+#page_menu a:hover {
+    color:  lightblue;
+}
+
+#picture_frame {
+    float:  left;
+    width:  220px;
+    height:  250px;
+    background-color:  white;
+    text-align:  center;
+    margin-left:  10px;
+}
+
+#page_body {
+    background-color:  #CDCDFF;
+    width:  700px;
+    height:  400px;
+    text-align:  center;
+}
+
+#page_body img {
+    width:  140px;
+    height: 140px;
+}
+
+#office_pic img {
+    width:  200px;
+    height: 240px;
+    float: right;
+    margin-right: 10px;
+}
